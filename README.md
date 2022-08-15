@@ -8,7 +8,6 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
 
 ## Installation
 
@@ -19,6 +18,3 @@ https://user-images.githubusercontent.com/100335717/184606271-cbb842a4-903d-4ae3
 ## Usage
 ![CQU](https://user-images.githubusercontent.com/100335717/184605846-ae336945-dbe8-4cb0-b318-3f6d141ab4f3.png)
 
-
-## Contributing
-Tony Jones

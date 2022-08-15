@@ -3,9 +3,9 @@
   }
 
 :root {
-    --primary: rgb(212, 0, 212);
+    --primary: rgba(12, 212, 45, 0.986);
     --secondary: white;
-    --tertiary: rgb(53, 1, 53);
+    --tertiary: rgba(137, 69, 6, 0.951);
 }
 
 body {
