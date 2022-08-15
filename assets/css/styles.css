@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+  }
+
+:root {
+    --primary: rgb(212, 0, 212);
+    --secondary: white;
+    --tertiary: rgb(53, 1, 53);
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 0 10px;
+}
+
+.view-scores {
+    color: var(--primary);
+    font-size: 95%;
+}
+
+.time {
+    font-weight: bold;
+    font-size: 90%;
+}
+
+.title {
+    text-align: center;
+    margin-top: 6%;
+}
+
+.instructions {
+    text-align: center;
+    font-size: 1.3vw;
+    width: 55%;
+    margin: 0 auto 0 auto;
+}
+
+.start-btn-div {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.start-btn {
+    font-size: 1vw;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    border: solid 10px var(--tertiary);
+    border-radius: 5px;
+}
+
+.questions-container {
+    width: 70%;
+    margin: auto; 
+}
+
+.questions-titles {
+    margin-top: 80px;
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+.choices {
+    list-style:none;
+    text-align: left;
+}
+
+.choice {
+    text-align: left;
+    font-size: 1.5vw;
+    color: var(--secondary);
+    background-color: var(--tertiary);
+    width: 24%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 65px;
+    padding-left: 10px;
+}
+
+.answer {
+    color: lightgrey;
+    border-top: 2px solid lightgray;
+    margin: 40px auto 0 auto;
+    width:65%;
+    font-size: 40px;
+}
+
+.input-form {
+    display: flex;
+}
+
+.input {
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 25px;
+}
+
+.submit-btn {
+    font-size: 1vw;
+    background-color: var(--tertiary);
+    color: var(--secondary);
+    border: solid 10px var(--tertiary);
+    border-radius: 5px;
+    height: 25px;
+    line-height: 5px;
+    margin: 20px 0 0 15px;
+}
+
+.endgame-h2, .hs-header {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 10rem;
+}
+
+.endgame-p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.input-form {
+    justify-content: center;
+}
+
+.hs-ul {
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
+    text-align: left;
+    font-size: 1.5rem;
+    width: 40rem;
+}
+
+.hs-li {
+    margin-bottom: 10px;
+    background-color: lightgray;
+    padding-left: 30px;
+}
+
+.btn-div {
+    margin: auto;
+    width: 20%;
+}
+
+.go-back-btn {
+    margin-left: 20px;
+}
+
+.clear-scores-btn {
+    margin-left: 40px;
+}
